@@ -17,11 +17,10 @@ body{
 }
 
 .logo img{
-    max-width: 150px;
-    max-height: 100px;
+    max-width: 300px;
+    max-height: 250px;
     width: auto;
     height: auto;
-    border-radius: 10px;
 }
 
 .flex{
@@ -386,11 +385,22 @@ footer .flex{
 }
 
 footer .line-footer{
-    padding: 20px 0;
+    padding: -20px;
+}
+
+footer .line-footer img{
+    max-width: 300px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
 }
 
 .borda{
     border-top: 2px solid #00FF08;
+}
+
+.borda p{
+    padding: 30px;
 }
 
 footer .line-footer p i{
