@@ -180,7 +180,25 @@
             </div><!--interface-->
     </footer>
 
-    <script> (função (w, d, s, o, f, js, fjs) { w["botsonic_widget"] = o; w[o] = w[o] || função () { (w[o].q = w[o].q || []).push(argumentos); }; (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]); js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs); })(janela, documento, "script", "Botsonic", "https://widget.writesonic.com/CDN/botsonic.min.js"); Botsonic("init", { serviceBaseUrl: "https://api-azure.botsonic.ai", token: "e78803d7-70d2-4b14-b559-59651ccd7287", }); </script>
+    <script>
+        (function (w, d, s, o, f, js, fjs) {
+          w["botsonic_widget"] = o;
+          w[o] =
+            w[o] ||
+            function () {
+              (w[o].q = w[o].q || []).push(arguments);
+            };
+          (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+          js.id = o;
+          js.src = f;
+          js.async = 1;
+          fjs.parentNode.insertBefore(js, fjs);
+        })(window, document, "script", "Botsonic", "https://widget.writesonic.com/CDN/botsonic.min.js");
+        Botsonic("init", {
+          serviceBaseUrl: "https://api-azure.botsonic.ai",
+          token: "e78803d7-70d2-4b14-b559-59651ccd7287",
+        });
+      </script>  
 
 </body>
 </html>
